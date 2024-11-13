@@ -1,0 +1,133 @@
+/* SignUp.css */
+
+.signup-container {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #ffffff;
+  min-height: 80vh;
+}
+
+.arrow {
+  margin-bottom: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.back-icon {
+  font-size: 24px;
+  color: #333;
+}
+
+.signup-title {
+  font-size: 18px;
+  color: #122357;
+}
+
+.greeting h2 {
+  font-weight: 200;
+  font-size: 32px;
+  margin: 20px 0 5px;
+  color: #122357;
+}
+
+.greeting h4 {
+  font-weight: 300;
+  color: grey;
+  font-size: 18px;
+}
+
+.greeting .username {
+  font-weight: bold;
+  color: #1e2742;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.signup-form label {
+  font-size: 14px;
+  color: grey;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.signup-form input[type="text"] {
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #ddd;
+
+  border-radius: 8px;
+  margin-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.time-input {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.time-input input[type="text"] {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.clock-icon {
+  position: absolute;
+  right: 10px;
+  color: #888;
+}
+
+.gender-options {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 30px;
+}
+
+.gender-options label {
+  font-size: 14px;
+  color: #333;
+  display: flex;
+  width: 90px;
+  align-items: center;
+}
+
+.start-dating-btn {
+  background-color: #1e2742;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.start-dating-btn .arrow {
+  font-size: 20px;
+}
+
+.next {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.next img {
+  background-color: #122357;
+  border-radius: 50%;
+}

@@ -1,0 +1,106 @@
+.chatLayout {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  color: #555;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.matches {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 10px 0;
+}
+
+.matchItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.matchImage {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.matchName,
+.matchAge {
+  font-size: 14px;
+  color: #333;
+  margin: 2px 0;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 15px 0;
+}
+
+.searchBar input {
+  border: none;
+  outline: none;
+  background: none;
+  flex: 1;
+  padding: 5px 10px;
+  font-size: 16px;
+  color: #777;
+}
+
+.searchIcon {
+  font-size: 16px;
+  color: #aaa;
+}
+
+.chatList {
+  margin-top: 10px;
+}
+
+.chatItem {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.chatImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+  object-fit: cover;
+}
+
+.chatInfo {
+  flex: 1;
+}
+
+.chatHeader {
+  display: flex;
+  align-items: center;
+}
+
+.chatName {
+  font-weight: bold;
+  color: #333;
+  margin-right: 5px;
+}
+
+.onlineIndicator {
+  color: red;
+  font-size: 10px;
+}
+
+.chatMessage {
+  color: #888;
+  font-size: 14px;
+}

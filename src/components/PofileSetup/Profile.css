@@ -1,0 +1,114 @@
+.app-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.app-header {
+  display: flex;
+  align-items: baseline;
+}
+
+.back-button {
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+h1 {
+  font-weight: lighter;
+}
+
+h4 {
+  font-weight: 400;
+}
+
+.app-content {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+
+  min-height: 80vh;
+  text-align: center;
+}
+
+p {
+  color: grey;
+  text-align: left;
+  font-size: 12;
+}
+
+.highlight {
+  font-weight: bold;
+}
+
+.pictures-container {
+  margin: 20px 0;
+}
+
+.pictures-grid {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.picture-slot {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.uploaded-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.upload-label {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #888;
+  font-size: 24px;
+}
+
+.start-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.start-btn {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+
+.start-btn > p {
+  color: grey;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn {
+  margin-left: 10px;
+  background-color: #122357;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
