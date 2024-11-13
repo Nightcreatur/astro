@@ -2,17 +2,12 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import SplashScreen from "../components/SplashScreen";
 import LoginPage from "../components/LoginPage/Login1";
-
 import Profile from "../components/Profile/Profile";
-
-
-
 import ProfileSetup from "../components/PofileSetup/ProfileSetup";
-
 import ZodiacWheel from "../components/Zodiac/ZodiacWheel";
 import ProfileGrid from "../components/HomePage/ProfileGrid";
-import HomePage from "../components/HomePage/Homepage";
 import Message from '../components/Message/Message'
+import HomePage from "../components/HomePage/Homepage";
 
 
 
